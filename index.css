@@ -1,0 +1,57 @@
+* {
+    border: 1px solid red !important;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: white;
+    padding: 25px;
+    font-family: sans-serif;
+  }
+  
+  .banner {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Emerald_Bay.jpg/1920px-Emerald_Bay.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  
+  .banner h1 {
+    border: 3px solid white;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 65px;
+    width: 400px;
+    color: white;
+  }
+  .banner p {
+    text-align: center;
+    position: relative;
+    top: 125px;
+    color: white;
+  }
+  
+  header {
+    text-align: center;
+    color: black;
+  }
+  
+  .navigation li {
+    text-align: center;
+    list-style: none;
+    color: black;
+    padding: 10px;
+    
+  }
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  div {
+    color: black;
+  }  
